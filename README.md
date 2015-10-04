@@ -1,6 +1,6 @@
-React Native Router
+React Native Routing
 ===================
-Awesome navigation for your React Native app.
+Awesome navigation for your React Native app. Forked from [t4t5](https://github.com/t4t5/react-native-router).
 
 ![Twitter navigation](http://tristanedwards.me/u/react-native-router/native-router.gif)
 
@@ -9,13 +9,13 @@ Install
 
 Make sure that you are in your React Native project directory and run:
 
-```npm install react-native-router --save```
+```npm install react-native-routing --save```
 
 Usage
 -----
 
 ```javascript
-var Router = require('react-native-router');
+var Router = require('react-native-routing');
 ```
 
 The basics:
@@ -79,14 +79,14 @@ Now, when you click on "Next page please!", it will go to the next page (which i
 A more advanced example: Twitter app
 ------------------------------------
 
-To see more of the router in action, you can check out the Twitter example app that comes with the package. Just make sure that you first drag all the images from ```node_modules/react-native-router/twitter-example/images``` to your project's Images.xcassets:
+To see more of the router in action, you can check out the Twitter example app that comes with the package. Just make sure that you first drag all the images from ```node_modules/react-native-routing/twitter-example/images``` to your project's Images.xcassets:
 
 ![Drag the assets to xcassets](http://tristanedwards.me/u/react-native-router/drag-assets.gif)
 
 After that, don't forget to rebuild the app in XCode before you launch the simulator. Then test the app by requiring the TwitterApp component:
 
 ```javascript
-var TwitterApp = require('./node_modules/react-native-router/twitter-example');
+var TwitterApp = require('./node_modules/react-native-routing/twitter-example');
 
 var {
   AppRegistry
@@ -114,14 +114,4 @@ The **`this.props.toRoute()`** callback prop takes one parameter (a JavaScript o
 - `titleComponent`: Specify a component to replace the title. This could for example be your logo (as in the first page of the Instagram app)
 - `headerStyle`: change the style of your header for the new route. You could for example specify a new backgroundColor and the router will automatically make a nice transition from one color to the other!
 - `data`: Send custom data to your route.
-
-
-Todos
------
-When swiping from left to right to go back, it would be nice if the navigation bar's opacity gradually changed with the user's finger position. (See [Issue #1](https://github.com/t4t5/react-native-router/issues/1))
-
-Questions?
----------
-
-If something is unclear or if you just want to say hi, feel free to [follow me on Twitter](https://twitter.com/t4t5)!
 

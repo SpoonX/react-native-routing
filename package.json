@@ -1,6 +1,6 @@
 {
-  "name": "react-native-router",
-  "version": "0.2.1",
+  "name": "react-native-routing",
+  "version": "0.1.0",
   "description": "Awesome navigation for your native app.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/t4t5/react-native-router.git"
+    "url": "git@github.com:SpoonX/react-native-routing.git"
   },
   "keywords": [
     "react",
@@ -20,14 +20,16 @@
     "navbar",
     "router"
   ],
-  "author": "Tristan Edwards <tristan.edwards@me.com> (http://tristanedwards.me)",
+  "author": [
+    "Tristan Edwards <tristan.edwards@me.com> (http://tristanedwards.me)"
+    "RWOverdijk <wesley@spoonx.nl> (http://spoonx.nl/)"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/t4t5/react-native-router/issues"
+    "url": "https://github.com/SpoonX/react-native-routing/issues"
   },
-  "homepage": "https://github.com/t4t5/react-native-router",
+  "homepage": "https://github.com/SpoonX/react-native-routing",
   "dependencies": {
-    "react-native": "^0.4.x",
     "react-tween-state": "0.0.5"
   }
 }
